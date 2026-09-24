@@ -1,0 +1,73 @@
+Instructions d'assemblage et conseils d'impression pour le modèle Mirage 2000
+
+================================================================================
+
+1. Préparation des fichiers pour impression 3D
+--------------------------------------------------------------------------------
+- Tous les fichiers `.stl` sont optimisés pour une impression sur Creality Ender 3.
+- Utilise un slicer comme **Ultimaker Cura** ou **PrusaSlicer** pour préparer les fichiers.
+- **Réglages recommandés** :
+  - Épaisseur de couche : 0.2 mm
+  - Remplissage : 20% (structure interne solide pour les pièces porteuses)
+  - Supports : Activer uniquement si nécessaire (ex. pour les ailes ou l'empennage).
+
+2. Impression des pièces
+--------------------------------------------------------------------------------
+### Fuselage (`mirage2000_fuselage.stl`)
+- **Orientation recommandée** : Fuselage à plat (pour éviter les déformations).
+- **Matériau** : PLA ou PETG (selon tes préférences).
+- **Temps d'impression estimé** : ~12 heures (selon ta vitesse d'impression).
+
+### Ailes (`mirage2000_ailes.stl`)
+- **Orientation recommandée** : Ailes à plat ou légèrement inclinées pour réduire les supports.
+- **Matériau** : PLA (léger et résistant pour les ailes).
+- **Temps d'impression estimé** : ~8 heures (pour les deux ailes).
+
+### Empennage (`mirage2000_empennage.stl`)
+- **Orientation recommandée** : Pièce à plat.
+- **Matériau** : PLA.
+- **Temps d'impression estimé** : ~3 heures.
+
+### Canopy (`mirage2000_canopy.stl`)
+- **Orientation recommandée** : Canopy à plat.
+- **Matériau** : Transparent (PETG ou PLA transparent).
+- **Temps d'impression estimé** : ~2 heures.
+
+### Train d'atterrissage (`mirage2000_train_atterrissage.stl`)
+- **Orientation recommandée** : Pièce à plat.
+- **Matériau** : PLA ou PETG (renforcer avec du filament carbone si nécessaire).
+- **Temps d'impression estimé** : ~4 heures.
+
+3. Assemblage
+--------------------------------------------------------------------------------
+### Matériel nécessaire
+- Colle à modèle (ex. colle cyanoacrylate).
+- Vis M2 ou M3 (pour fixer les ailes et l'empennage).
+- Ciseaux ou cutter (pour enlever les supports).
+- Papier de verre (grain 220 et 400) pour lisser les pièces.
+
+### Étapes d'assemblage
+1. **Fuselage** : Vérifie que l'espace pour le moteur EDF (120 mm) et l'électronique est libre.
+2. **Ailes** : Colle ou visse les ailes sur les emplacements prévus sur le fuselage.
+3. **Empennage** : Fixez l'empennage à l'arrière du fuselage.
+4. **Canopy** : Insère la canopy sur le fuselage (elle doit rester amovible pour accéder à l'électronique).
+5. **Train d'atterrissage** : Fixez le train d'atterrissage sous le fuselage.
+
+### Conseils
+- **Équilibrage** : Après l'assemblage, vérifie l'équilibrage du modèle avant le premier vol.
+- **Peinture** : Utilise de la peinture acrylique ou aérosol pour personnaliser ton Mirage 2000.
+- **FPV** : Installe ton système FPV dans la canopy avant de la fixer définitivement.
+
+4. Personnalisation
+--------------------------------------------------------------------------------
+- Tu peux modifier les fichiers `.stl` ou `.step` avec un logiciel comme **Blender**, **Fusion 360** ou **Onshape** pour ajouter des détails ou ajuster les dimensions.
+
+5. Problèmes courants et solutions
+--------------------------------------------------------------------------------
+- **Pièces qui ne s'assemblent pas** : Vérifie les tolérances dans ton slicer ou utilise un cutter pour ajuster.
+- **Déformations** : Utilise un plateau chauffant et une vitesse d'impression plus lente pour les grandes pièces.
+- **Poids excessif** : Réduis le taux de remplissage ou utilise des structures en nid d'abeille pour alléger.
+
+================================================================================
+
+Besoin d'aide ? Ouvre une **issue** sur ce dépôt ou contacte-moi directement !
